@@ -1,0 +1,45 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffacd;
+}
+header {
+    background-color: #ffd700;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+nav {
+    background-color: #ffa500;
+    overflow: hidden;
+}
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #ff8c00;
+}
+main {
+    padding: 2rem;
+}
+h1, h2 {
+    color: #8b4513;
+}
+p {
+    line-height: 1.6;
+}
+footer {
+    background-color: #ffd700;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
